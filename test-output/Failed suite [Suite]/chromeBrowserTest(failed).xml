@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="DESKTOP-OF0JF2E" failures="0" tests="1" name="com.projectname1.qa.TestCases.LoginFacebookPageTest" time="0.218" errors="0" timestamp="17 Aug 2022 17:15:10 GMT">
+  <testcase classname="com.projectname1.qa.TestCases.LoginFacebookPageTest" name="@BeforeClass setup" time="0.0">
+    <failure type="java.lang.NullPointerException" message="Cannot invoke &amp;quot;org.openqa.selenium.WebDriver.get(String)&amp;quot; because &amp;quot;com.projectname1.qa.Base.TestBase.driver&amp;quot; is null">
+      <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "com.projectname1.qa.Base.TestBase.driver" is null
+	at com.projectname1.qa.Base.TestBase.Initialisebrowser(TestBase.java:34)
+	at com.projectname1.qa.TestCases.LoginFacebookPageTest.setup(LoginFacebookPageTest.java:20)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 17 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase classname="com.projectname1.qa.TestCases.LoginFacebookPageTest" name="@AfterClass teardown" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.projectname1.qa.TestCases.LoginFacebookPageTest" name="LoginFacebookPageTest" time="0.081">
+    <skipped/>
+  </testcase>
+</testsuite>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [CrossBrowserSuite]">
+  <parameter name="browser" value="chrome"/>
+  <test parallel="tests" name="chromeBrowserTest(failed)" preserve-order="false">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.projectname1.qa.TestCases.RegistrationTest">
+        <methods>
+          <include name="setup"/>
+          <include name="Test"/>
+        </methods>
+      </class>
+      <class name="com.projectname1.qa.TestCases.LoginFacebookPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="LoginFacebookPageTes"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test parallel="tests" name="firefoxBrowserTest(failed)" preserve-order="false">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.projectname1.qa.TestCases.RegistrationTest">
+        <methods>
+          <include name="setup"/>
+          <include name="Test"/>
+        </methods>
+      </class>
+      <class name="com.projectname1.qa.TestCases.LoginFacebookPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="LoginFacebookPageTes"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

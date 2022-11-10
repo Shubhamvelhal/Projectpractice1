@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="DESKTOP-OF0JF2E" failures="0" tests="2" name="com.projectname1.qa.TestCases.LoginFacebookPageTest" time="84.094" errors="0" timestamp="20 Aug 2022 16:01:52 GMT">
+  <testcase classname="com.projectname1.qa.TestCases.LoginFacebookPageTest" name="LoginFacebookPageTest" time="4.252"/>
+  <testcase classname="com.projectname1.qa.TestCases.RegistrationTest" name="Test" time="16.253"/>
+</testsuite>

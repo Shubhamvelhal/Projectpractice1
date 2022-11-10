@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="DESKTOP-OF0JF2E" failures="0" tests="2" name="com.projectname1.qa.TestCases.LoginFacebookPageTest" time="0.091" errors="0" timestamp="17 Aug 2022 17:44:27 GMT">
+  <testcase classname="com.projectname1.qa.TestCases.LoginFacebookPageTest" name="@BeforeClass setup" time="0.0">
+    <failure type="java.lang.NullPointerException" message="Cannot invoke &amp;quot;org.openqa.selenium.WebDriver.get(String)&amp;quot; because &amp;quot;com.projectname1.qa.Base.TestBase.driver&amp;quot; is null">
+      <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "com.projectname1.qa.Base.TestBase.driver" is null
+	at com.projectname1.qa.Base.TestBase.Initialisebrowser(TestBase.java:34)
+	at com.projectname1.qa.TestCases.LoginFacebookPageTest.setup(LoginFacebookPageTest.java:20)
+... Removed 25 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase classname="com.projectname1.qa.TestCases.LoginFacebookPageTest" name="@AfterClass teardown" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.projectname1.qa.TestCases.RegistrationTest" name="@BeforeClass setup" time="0.0">
+    <failure type="java.lang.NullPointerException" message="Cannot invoke &amp;quot;org.openqa.selenium.WebDriver.get(String)&amp;quot; because &amp;quot;com.projectname1.qa.Base.TestBase.driver&amp;quot; is null">
+      <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "com.projectname1.qa.Base.TestBase.driver" is null
+	at com.projectname1.qa.Base.TestBase.Initialisebrowser(TestBase.java:34)
+	at com.projectname1.qa.TestCases.RegistrationTest.setup(RegistrationTest.java:20)
+... Removed 25 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase classname="com.projectname1.qa.TestCases.RegistrationTest" name="@AfterClass teardown" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.projectname1.qa.TestCases.LoginFacebookPageTest" name="LoginFacebookPageTes" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.projectname1.qa.TestCases.RegistrationTest" name="Test" time="0.003">
+    <skipped/>
+  </testcase>
+</testsuite>

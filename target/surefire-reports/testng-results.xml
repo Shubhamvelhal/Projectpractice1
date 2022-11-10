@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[VerifyTheFacebookLogoinLoginPage]]>
+    </line>
+    <line>
+      <![CDATA[VerifytheFacebookMessagefromLoginPaage]]>
+    </line>
+    <line>
+      <![CDATA[VerifyFacebookCreateNewAccountButton]]>
+    </line>
+    <line>
+      <![CDATA[VerifyFacebookCreatePageforCelebrityButton]]>
+    </line>
+    <line>
+      <![CDATA[VerifyFacebookForgottenPasswordlink]]>
+    </line>
+    <line>
+      <![CDATA[ClickOnLoginButton]]>
+    </line>
+    <line>
+      <![CDATA[setUsernameinUsernameField]]>
+    </line>
+    <line>
+      <![CDATA[setUsernameinUsernameField]]>
+    </line>
+    <line>
+      <![CDATA[ClickOnLoginButton]]>
+    </line>
+    <line>
+      <![CDATA[RegistrationPage]]>
+    </line>
+    <line>
+      <![CDATA[click facbook signup link]]>
+    </line>
+    <line>
+      <![CDATA[verifyfacebooklogoinregistrationpage]]>
+    </line>
+    <line>
+      <![CDATA[verifyfacebookregistrationpagealreadyhaveanaccount]]>
+    </line>
+    <line>
+      <![CDATA[setfirstnameinregistrationpage]]>
+    </line>
+    <line>
+      <![CDATA[setlastnameinregistrationpage]]>
+    </line>
+    <line>
+      <![CDATA[setmobilenumberinregistrationpage]]>
+    </line>
+    <line>
+      <![CDATA[setpasswordinregistrationpage]]>
+    </line>
+    <line>
+      <![CDATA[setbirthdayinregistrationpage]]>
+    </line>
+    <line>
+      <![CDATA[setbirthmonthinregistrationpage]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-08-20T21:30:28Z" name="Surefire suite" finished-at="2022-08-20T21:31:52Z" duration-ms="84094">
+    <groups>
+    </groups>
+    <test started-at="2022-08-20T21:30:28Z" name="Surefire test" finished-at="2022-08-20T21:31:52Z" duration-ms="84094">
+      <class name="com.projectname1.qa.TestCases.LoginFacebookPageTest">
+        <test-method is-config="true" signature="setup()" started-at="2022-08-20T21:30:28Z" name="setup" finished-at="2022-08-20T21:31:07Z" duration-ms="39100" status="PASS">
+        </test-method>
+        <test-method signature="LoginFacebookPageTest()" started-at="2022-08-20T21:31:07Z" name="LoginFacebookPageTest" finished-at="2022-08-20T21:31:11Z" duration-ms="4252" status="PASS">
+        </test-method>
+        <test-method is-config="true" signature="teardown()" started-at="2022-08-20T21:31:11Z" name="teardown" finished-at="2022-08-20T21:31:13Z" duration-ms="1437" status="PASS">
+        </test-method>
+      </class>
+      <class name="com.projectname1.qa.TestCases.RegistrationTest">
+        <test-method is-config="true" signature="setup()" started-at="2022-08-20T21:31:13Z" name="setup" finished-at="2022-08-20T21:31:34Z" duration-ms="21391" status="PASS">
+        </test-method>
+        <test-method signature="Test()" started-at="2022-08-20T21:31:34Z" name="Test" finished-at="2022-08-20T21:31:50Z" duration-ms="16253" status="PASS">
+        </test-method>
+        <test-method is-config="true" signature="teardown()" started-at="2022-08-20T21:31:50Z" name="teardown" finished-at="2022-08-20T21:31:52Z" duration-ms="1650" status="PASS">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

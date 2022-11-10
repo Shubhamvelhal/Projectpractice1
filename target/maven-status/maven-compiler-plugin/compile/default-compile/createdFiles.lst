@@ -1,0 +1,4 @@
+com\projectname1\qa\Utility\Utils.class
+com\projectname1\qa\Pages\LoginPage.class
+com\projectname1\qa\Pages\RegistrationPage.class
+com\projectname1\qa\Base\TestBase.class
